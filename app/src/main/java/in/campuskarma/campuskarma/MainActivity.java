@@ -1,5 +1,10 @@
 package in.campuskarma.campuskarma;
 
+import android.app.Activity;
+import android.app.Dialog;
+import android.app.DialogFragment;
+import android.content.DialogInterface;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.NavigationView;
@@ -12,11 +17,16 @@ import android.support.v4.view.GravityCompat;
 import android.support.v4.view.ViewPager;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.Window;
+import android.widget.Button;
+import android.widget.EditText;
 
 import in.campuskarma.campuskarma.ui.*;
 
@@ -26,27 +36,14 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
 
     Toolbar toolbar;
+    EditText text;
+    String post;
+    int post_length;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_navigation);
-
-//        AssetManager am = getApplicationContext().getAssets();
-//
-//        typeface = Typeface.createFromAsset(am,
-//                String.format(Locale.US, "fonts/%s", "Rubik.ttf"));
-//
-//        setTypeface(typeface);
-
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });
 
         initializeScreen();
 
@@ -59,10 +56,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
-
-
-
     }
+
     /**
      * Link layout elements from XML and setup the toolbar
      */
@@ -83,6 +78,9 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         tabLayout.setupWithViewPager(viewPager);
     }
 
+    public void dialogBox(View view) {
+
+    }
 
 
     /**
@@ -126,6 +124,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         }
 
 
+
+
         @Override
         public int getCount() {
             return 3;
@@ -158,6 +158,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         } else {
             super.onBackPressed();
         }
+        finish();
     }
 
     @Override
@@ -189,7 +190,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         int id = item.getItemId();
 
         if (id == R.id.nav_home) {
-            // Handle the camera action
+
         } else if (id == R.id.nav_group) {
 
         } else if (id == R.id.nav_blog) {

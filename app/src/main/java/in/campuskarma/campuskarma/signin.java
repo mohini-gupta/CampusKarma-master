@@ -94,6 +94,8 @@ public class signin extends AppCompatActivity implements LoaderCallbacks<Cursor>
 
         mLoginFormView = findViewById(R.id.form);
         mProgressView = findViewById(R.id.loading);
+
+
     }
 
     private void populateAutoComplete() {
