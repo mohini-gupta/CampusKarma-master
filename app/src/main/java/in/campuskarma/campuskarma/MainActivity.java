@@ -178,9 +178,15 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
             return true;
+
+        }
+        if (id == R.id.action_about) {
+            Intent intent = new Intent(MainActivity.this, about.class);
+            startActivity(intent);
         }
 
-        return super.onOptionsItemSelected(item);
+
+            return super.onOptionsItemSelected(item);
     }
 
     @SuppressWarnings("StatementWithEmptyBody")

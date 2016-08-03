@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+
+<LinearLayout
+    android:id="@+id/activity_about"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="in.campuskarma.campuskarma.about"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4"
+        android:text="About Campus Karma"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textSize="30dp"
+        tools:layout_editor_absoluteY="12dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="7dp"
+        />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView5"
+        android:text="India's first Campus Social Networking Website.!!"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="68dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="8dp"
+        />
+
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="191dp"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="105dp"
+        android:id="@+id/textView6"
+        android:text="Campus Karma is the India’s first ever college based social networking site launch on 1800 HRS IST , 02-10-2012, intended to offer a virtual campus environment. It was conceived and founded by a 22 years old Computer Science B-Tech final year student with primary aim of connecting the youth of India from all colleges irrespective of their courses, under the universal banner of virtual campus life. In simple terms it's your chance to take your college to the national level. Our aim is to bring all the campuses of India on one social platform. "
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="8dp"
+        android:layout_weight="0.02"
+
+        />
+
+    <TextView
+
+        android:layout_width="326dp"
+        android:layout_height="71dp"
+        android:id="@+id/textView7"
+        android:text="The name Campus Karma serves its purpose to convey the exact phenomenon of karma in college life, depicting all state of affairs imaginable in the campus. The Key features of the site includes:"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="8dp"
+
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="8dp"
+        android:id="@+id/textView9"
+        android:text="Groups"
+        android:textColor="@color/colorPrimaryDark"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="8dp"
+
+        android:id="@+id/textView10"
+        android:text="A group is a virtual campus for all the campus activities. If a student is planning to join a college and needs information regarding the respective campus, they can easily visit the college group and see all the activities taking place in the campus like fests being organized by them, sports etc that will be be updated by the campus students. Even if a user is studying in a college and is planning to visit any other college for a cultural or technical fest and needs more information such as the pictures/videos of last year’s events, they can visit the campus group and have a look at past year pictures and videos."
+        />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="8dp"
+        android:id="@+id/textView11"
+        android:text="Events"
+        android:textColor="@color/colorPrimaryDark"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="8dp"
+
+        android:id="@+id/textView12"
+        android:text="If someone is looking for Events organised by various colleges at various locations, then this is the right place. Campus Karma provides the feature to create events like the upcoming fest, workshops etc. The most important feature that campus karma's events page has that it allows its user to edit the event at a later point of time which is not available in most of the other events website in India."
+/>
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="8dp"
+        android:id="@+id/textView13"
+        android:text="File repository"
+        android:textColor="@color/colorPrimaryDark"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="8dp"
+
+        android:id="@+id/textView14"
+        android:text=" A file in a Campus file repository. The file repository allows users to upload any sort of file. Campus Karma aims to help the students by allowing them to share study materials over the site that would not only help students of their own group but can also help others if kept public. Suppose a teacher want to share a study material then they can upload it in their respective college group and students can download them easily, It will not only help the teacher as they don’t have to maintain student email database and also the student can download it directly from the server and he/she does not have to wait if that student is missed out in the mail for others to mail them again."
+        />
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="8dp"
+        android:id="@+id/textView15"
+        android:text="Blogs"
+        android:textColor="@color/colorPrimaryDark"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="8dp"
+
+        android:id="@+id/textView16"
+        android:text=" A weblog, or blog, is basically one of the grass-root components of most types of social networking site where user can share their thoughts with other campus students. "
+        />
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="8dp"
+        android:id="@+id/textView17"
+        android:text="Photo and Videos"
+        android:textColor="@color/colorPrimaryDark"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="8dp"
+
+        android:id="@+id/textView18"
+        android:text="Users can create album and upload photos and videos like fest, farewell, events, sports etc. "
+        />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="30dp"
+
+        android:id="@+id/textView19"
+        android:text="In Short, share your college events or activities and interact with  other colleges across the country. Join and know what's cooking on other campuses across India. Share your college campus/fest pictures and let others know what's your college culture also get to know about their culture. Share files more than 25 MB in size like your project or assignment. Visit college groups and see their previous year fest pictures or know more about the campus. "
+        />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+
+        android:id="@+id/textView20"
+        android:text="The site intends to pervade through the most zealous age group of college going students and is meant to juxtapose to corporeal college life, infusing it with a scintillating dimension of technology. "
+        />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="35dp"
+        android:textStyle="bold"
+        android:id="@+id/textView21"
+        android:text="Come be a part of India's first online campus!"
+        />
+
+
+
+
+</LinearLayout>
+
+</ScrollView>
